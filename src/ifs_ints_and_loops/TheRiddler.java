@@ -7,18 +7,18 @@ public class TheRiddler
 	
 
 int Points = 0;
-String Answer = JOptionPane.showInputDialog("#ThisIsARiddle /100x500/1/760x4/6x700 ( / = dividing also use paper only if ur solving the equation)");
+String Answer = JOptionPane.showInputDialog("#ThisIsARiddle 564/100x500/1/760x4/6x700 ( / = dividing also use paper only if ur solving the equation)");
 if (Answer.equals("quick maths")){
 	JOptionPane.showMessageDialog(null, "CORRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRECT");
 	Points = Points +1;
-	JOptionPane.showMessageDialog(null, "YAY YOU EARNED "+ Points+" SCORE 2 QUESTIONS MORE TO GO");
+	JOptionPane.showMessageDialog(null, "YAY YOU EARNED "+ Points+" POINTS 2 QUESTIONS MORE TO GO");
 }
 else {
 	JOptionPane.showMessageDialog(null, "Ur not good at ur 'quick maths'");
 JOptionPane.showMessageDialog(null, "Your score is "+ Points);
 }
 JOptionPane.showMessageDialog(null, "YAY YOU EARNED "+ Points+" SCORE 2 QUESTIONS MORE TO GO");
-String Answer2 = JOptionPane.showInputDialog("What can travel around the world while staying in a corner? ");
+String Answer2 = JOptionPane.showInputDialog("What can travel around the world while staying in a corner? Make sure in each word in your answer should be in caps like 'I Can'and the first word in your answer is 'A'");
 if (Answer2.equals("A Stamp")) {
 	JOptionPane.showMessageDialog(null, "CORRRRRRRRRRRRRRRRRRRRRRRRRRRRRRRECT");
 }
